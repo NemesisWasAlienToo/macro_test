@@ -169,6 +169,6 @@ constexpr auto rec()
 int main()
 {
   macro rec{};
-  //std::cout << macro std::macros::quote{hi there} << std::endl;
+  std::cout << macro std::macros::quote{hi there} << std::endl;
   return 0;
 }
